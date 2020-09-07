@@ -26,3 +26,78 @@
 *::after {
 	box-sizing: inherit;
 }
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*header*/
+.site-header {
+	padding: 25px 0;
+	background-color: #191919;
+	color: #ffffff;
+}
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: block;
+}
+.working-text {
+	margin: 0;
+	padding: 8px 0;
+	text-align: center;
+}
+.working-text:first-child {
+	font-weight: 700;
+}
+.header-right {
+	display: flex;
+}
+.tel-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-right: 28px;
+}
+.header-tel {
+	font-size: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 700;
+}
+.header-order {
+	padding: 21px 28px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #1669b3;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+	.header-order:hover {
+	  background-image: -moz-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+	  background-image: -webkit-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+	  background-image: -ms-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+	}
+
+/*hero*/
+.hero {
+	width: 100%;
+	background-image: url("../img/belaz-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+}
+.parts {
+	display: flex;
+	flex-direction: column;
+	width: 570px;
+	padding: 100px;
+	background-color: #f7b516;
+}
+.parts-heading {
+	margin: 0;
+}

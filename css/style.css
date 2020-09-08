@@ -31,6 +31,16 @@
 	margin: 0 auto;
 	padding: 0 15px;
 }
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
 
 /*header*/
 .site-header {
@@ -95,9 +105,76 @@
 	display: flex;
 	flex-direction: column;
 	width: 570px;
-	padding: 100px;
+	padding: 93px;
 	background-color: #f7b516;
 }
 .parts-heading {
 	margin: 0;
+	font-size: 45px;
+	line-height: 55px;
+}
+.parts-text {
+	font-size: 25px;
+	font-weight: 700;
+}
+.parts-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.parts-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 44px;
+	font-weight: 700;
+}
+.parts-item::before {
+	flex-shrink: 0;
+	content: "";
+	width: 31px;
+	height: 31px;	
+	margin-right: 22px;	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.parts-item:last-child {
+	margin: 0;
+}
+.piggy::before {
+	background-image: url("../img/piggy-bank.svg");
+}
+.car::before {
+	background-image: url("../img/car.svg");
+}
+.calendar::before {
+	background-image: url("../img/calendar-with-star-symbol.svg");
+}
+.medal::before {
+	background-image: url("../img/medal.svg");
+}
+
+/*call-back*/
+.call-back {
+	padding: 100px 0;	
+}
+.call-back-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.call-back-form {
+	/*align-self: flex-end;*/
+}
+.call-back-heading {
+	width: 440px;
+	font-size: 30px;
+	text-align: right;
+}
+.form-inputs {
+	display: flex;
+}
+.input-wrapper {
+	width: 370px;
+	background-color: #f2f2f2;
 }

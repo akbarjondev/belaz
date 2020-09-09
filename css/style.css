@@ -283,3 +283,86 @@
 .wait-item:last-child {
 	margin: 0;
 }
+
+/*order*/
+.order {
+	background-image: url("../img/bg-blue-belaz.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.order-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 0;
+	color: #ffffff;
+}
+.order-heading {
+	margin: 0;
+	font-size: 30px;
+}
+.order-text {
+	width: 620px;
+	text-align: center;
+	margin: 60px 0;
+	font-size: 20px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.order-form {
+	display: flex;
+}
+.order-button {
+	margin-left: 30px;
+	background-color: #f7b516;
+}
+.order-sub-text {
+	margin: 60px 0 30px;
+	font-size: 14px;
+}
+.order-tel-text {
+	margin: 0;
+	margin-bottom: 16px;
+}
+.order-tel-tel {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*certificate*/
+.certificate-container {
+	padding: 100px 0;
+}
+.certificate-heading {
+	width: 680px;
+	margin: 0 auto 100px;
+	font-size: 36px;
+	text-align: center;
+}
+.certificate-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.certificate-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 335px;
+}
+.certificate-text {
+	margin: 40px 0;
+	text-align: center;
+}
+.certificate-link {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+}

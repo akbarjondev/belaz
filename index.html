@@ -53,11 +53,11 @@
 				<div class="form-inputs">
 					<div class="input-wrapper input-wrapper-envelope">
 						<label class="visually-hidden" for="email">Email</label>
-						<input class="call-back-input" placeholder="Введите ваш e-mail" type="email" name="email" id="email">
+						<input class="call-back-input" placeholder="Введите ваш e-mail" required type="email" name="email" id="email">
 					</div>
 					<div class="input-wrapper input-wrapper-call">
 						<label class="visually-hidden" for="tel">Telefon</label>
-						<input class="call-back-input" placeholder="Введите ваш телефон" type="tel" name="tel" id="tel">
+						<input class="call-back-input" placeholder="Введите ваш телефон" required type="tel" name="tel" id="tel">
 					</div>
 				</div>
 				<div class="form-buttons">
@@ -91,6 +91,57 @@
 				<li class="wait-item">
 					<img class="wait-img" src="img/pinned-map.png" alt="Map" width="95" height="92">
 					<p class="wait-img-text">Доставим в любое место!</p>
+				</li>
+			</ul>
+		</div><!-- End of container -->
+	</div><!-- End of wait -->
+
+	<div class="order">
+		<div class="container order-container">
+			<h2 class="order-heading">Ищете конкретную деталь?</h2>
+			<p class="order-text">Если у Вас есть артикул - введите его в поле ниже и получите цену <span class="uppercase">ПРЯМО СЕЙЧАС!</span></p>
+
+			<form class="order-form" action="https://echo.htmlacademy.ru" method="POST">
+				<div class="order-input-wrapper input-wrapper">
+					<label class="visually-hidden" for="text">Message</label>
+					<input class="call-back-input" type="text" name="text" id="text" required placeholder="Введите артикул детали">
+				</div>
+
+				<div class="order-input-wrapper input-wrapper input-wrapper-call">
+					<label class="visually-hidden" for="tel">Telefon</label>
+					<input class="call-back-input" type="tel" name="tel" id="tel" required placeholder="Введите ваш телефон">
+				</div>
+
+				<button class="order-button call-back-button" type="submit">Узнать цену</button>
+			</form>
+
+			<p class="order-sub-text">Мы перезвоним вам в течение 3 минут и назовем цену детали!</p>
+			<p class="order-tel-text">Или Вы можете перезвонить нам сами:</p>
+			<a class="order-tel-tel" href="tel:+7818247-47-25">+7 (818) 247-47-25</a>
+		</div><!-- End of container -->
+	</div><!-- End of order -->
+
+	<div class="certificate">
+		<div class="container certificate-container">
+			<h1 class="certificate-heading">Мы гарантируем сохранность деталей во время перевозки!</h1>
+			
+			<ul class="certificate-list">
+				<li class="certificate-item">
+					<img class="certificate-img" src="img/certificate.jpg" alt="Sertifikat">
+					<p class="certificate-text">Гарантия на целостность поставки прописана в договоре</p>
+					<a class="certificate-link" href="#">ПОДРОБНЕЕ</a>
+				</li>
+
+				<li class="certificate-item">
+					<img class="certificate-img" src="img/sklad-1.jpg" alt="Sklad 1">
+					<p class="certificate-text">Каждая запчасть доставляется с завода в жесткой упаковке</p>
+					<a class="certificate-link" href="#">ПОДРОБНЕЕ</a>
+				</li>
+
+				<li class="certificate-item">
+					<img class="certificate-img" src="img/sklad-2.jpg" alt="Sklad 2">
+					<p class="certificate-text">Дополнительный контроль качества нашими специалистами</p>
+					<a class="certificate-link" href="#">ПОДРОБНЕЕ</a>
 				</li>
 			</ul>
 		</div>

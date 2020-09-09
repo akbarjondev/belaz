@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/style.min.css">
 	<title>Belaz</title>
 </head>
 <body class="body">
@@ -108,8 +109,8 @@
 				</div>
 
 				<div class="order-input-wrapper input-wrapper input-wrapper-call">
-					<label class="visually-hidden" for="tel">Telefon</label>
-					<input class="call-back-input" type="tel" name="tel" id="tel" required placeholder="Введите ваш телефон">
+					<label class="visually-hidden" for="tel-first">Telefon</label>
+					<input class="call-back-input" type="tel" name="tel" id="tel-first" required placeholder="Введите ваш телефон">
 				</div>
 
 				<button class="order-button call-back-button" type="submit">Узнать цену</button>
@@ -211,11 +212,92 @@
 			<p class="comf-text">Более 70% клиентов приходят к нам по рекомендации!</p>
 
 			<ul class="comf-list">
-				<li class="comf-item">Вы вносите предоплату в размере 50% от стоимости запчасти</li>
-				<li class="comf-item">Отправляем запчасти в день заказа</li>
-				<li class="comf-item">Получаете деталь, проверяете, оплачиваете оставшиеся 50%</li>
+				<li class="comf-item comf-first">Вы вносите предоплату в размере 50% от стоимости запчасти</li>
+				<li class="comf-item comf-second">Отправляем запчасти в день заказа</li>
+				<li class="comf-item comf-third">Получаете деталь, проверяете, оплачиваете оставшиеся 50%</li>
 			</ul>
-		</div>
+		</div><!-- End of comf -->
 	</div><!-- End of container -->
+
+	<div class="sklad">
+		<div class="container comf">
+			<h2 class="sklad-heading comf-heading">У нас собственный склад!</h2>
+			<p class="sklad-text comf-text">Это позволяет нам быстро обрабатывать запросы и отгружать детали в день заказа!</p>
+
+			<ul class="sklad-list comf-list">
+				<li class="sklad-item sklad-first">
+					<img class="sklad-img" src="img/goods-1.jpg" alt="Sklad image" width="370" height="270">
+				</li>
+				<li class="sklad-item sklad-second">
+					<img class="sklad-img" src="img/goods-2.jpg" alt="Sklad image" width="370" height="270">
+				</li>
+				<li class="sklad-item sklad-third">
+					<img class="sklad-img" src="img/goods-3.jpg" alt="Sklad image" width="370" height="270">
+				</li>
+			</ul>
+		</div><!-- End of container -->
+	</div><!-- End of sklad -->
+
+	<div class="container">
+		<div class="comf">
+			<h2 class="comf-heading">У нас в штате есть мобильные бригады, готовые выехать на сервисное обслуживание, ремонт и проведение диагностики!</h2>
+
+			<ul class="comf-list">
+				<li class="comf-item comf-first-service">Организуем выезд специалистов в течение двух дней</li>
+				<li class="comf-item comf-second-service">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности</li>
+				<li class="comf-item comf-third-service">Все специалисты проходят обучение и ежегодную аттестацию</li>
+			</ul>
+		</div><!-- End of comf -->
+	</div><!-- End of container -->
+
+	<div class="order coal-order">
+		<div class="container order-container">
+			<h2 class="order-heading coal-heading">Если Вам необходима бесплатная консультация по вопросу обслуживания</h2>
+			
+			<p class="order-tel-text">Или Вы можете перезвонить нам сами:</p>
+			<a class="order-tel-tel coal-tel" href="tel:+7818247-47-25">+7 (818) 247-47-25</a>
+
+			<form class="order-form" action="https://echo.htmlacademy.ru" method="POST">
+
+				<div class="order-input-wrapper input-wrapper input-wrapper-call">
+					<label class="visually-hidden" for="tel-order">Telefon</label>
+					<input class="call-back-input" type="tel" name="tel" id="tel-order" required placeholder="Введите ваш телефон">
+				</div>
+
+				<button class="order-button call-back-button" type="submit">Перезвонить сейчас</button>
+			</form>
+
+		</div><!-- End of container -->
+	</div><!-- End of order -->
+
+	<div class="order telephone-order">
+		<div class="container order-container">
+			<h2 class="order-heading telephone-heading">Приезжайте в наш офис!</h2>
+			
+			<p class="order-tel-text telephone-tel-text">г. Архангельск, Москва-Сити, оф. 3725</p>
+			<a class="order-tel-tel telephone-tel" href="tel:+7818247-47-25">+7 (818) 247-47-25</a>
+
+		</div><!-- End of container -->
+	</div><!-- End of order -->
+
+	<div class="belaz-map">
+		<a class="belaz-map-link" href="https://yandex.com/maps/-/CCQxyThRdD">
+			<img class="belaz-map-img" src="img/belaz-map.jpg" alt="Yandex map" width="1920" height="375">
+		</a>
+	</div><!-- End of belaz-map -->
+
+	<footer class="site-footer">
+		<div class="container footer-container">
+			<a class="logo-link" href="index.html">
+				<img class="logo" src="img/logo.svg" width="191" height="40" alt="Belaz logo">
+			</a>
+			<p class="footer-text">© 2016, CДЕЛАНО С <img class="love" src="img/love.png" alt="Heart" width="15" height="14"> КОМАНДОЙ <a class="link" href="#"><img src="img/logo-marketing.png" alt="" width="70" height="20"></a></p>
+
+			<div class="footer-wrapper">
+				<p class="footer-text">Есть вопросы? Звоните!</p>
+				<a class="footer-tel" href="tel:+7818247-47-25">+7 (818) 247-47-25</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

@@ -366,3 +366,187 @@
 	font-weight: 700;
 	color: #000000;
 }
+
+/*bonus*/
+.bonus {
+	padding: 100px 0;
+	color: #ffffff;
+	background-color: #08243e;
+}
+.bonus-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bonus-heading {
+	width: 676px;
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+.bonus-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.bonus-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 340px;
+	text-align: center;
+}
+	.bonus-first::before {
+		content: "10%";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+		font-weight: 700;
+		font-size: 36px;
+		width: 100px;
+		height: 100px;
+		border: 2px solid #ffffff;
+		border-radius: 50%;
+	}
+	.bonus-second::before {
+		content: "20%";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+		font-weight: 700;
+		font-size: 36px;
+		width: 100px;
+		height: 100px;
+		border: 2px solid #ffffff;
+		border-radius: 50%;
+	}
+	.bonus-thrid::before {
+		content: "";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+		width: 100px;
+		height: 100px;
+		border: 2px solid #ffffff;
+		border-radius: 50%;
+		background-image: url("../img/delivery-truck-2.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: 56px 33px;
+		background-size: 56px 33px;
+		background-position: center;
+	}
+	.bonus-four::before {
+		content: "";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+		width: 100px;
+		height: 100px;
+		border: 2px solid #ffffff;
+		border-radius: 50%;
+		background-image: url("../img/telemarketer.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: 35px 39px;
+		background-size: 35px 39px;
+		background-position: center;
+	}
+
+/*manager*/
+.manager {
+	padding: 100px 0;
+	color: #ffffff;
+	background-color: #0b3554;
+}
+.manager-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.manager-heading {
+	margin: 0;
+	font-size: 36px;
+}
+.manager-text {
+	margin: 30px 100px;
+	font-size: 20px;
+}
+.manager-body {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.manager-list {
+	margin: 0;
+	padding: 0;
+}
+.manager-item {
+	position: relative;
+	margin-bottom: 55px;
+}
+.manager-link {
+	margin-left: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+}
+	.manager-link:hover {
+		color: #579eff;
+		text-decoration: none;
+	}
+.message {
+	position: absolute;
+	top: 154%;
+	left: 8%;
+	z-index: 10;
+	display: flex;
+	align-items: flex-start;
+	width: 330px;
+	padding: 20px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #ffffff;
+	filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.75));
+}
+	.message::before {
+		content: "";
+		position: absolute;
+		bottom: 100%;
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 15px solid #ffffff;
+		border-left: 15px solid transparent;
+	}
+.message-close {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.message-text {
+	margin-top: 0;
+}
+.manager-reload {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #ffffff;
+}
+	.manager-reload::before {
+		content: "";
+		width: 20px;
+		height: 20px;
+		margin-right: 20px;
+		background-image: url("../img/reload.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: center;
+	}
